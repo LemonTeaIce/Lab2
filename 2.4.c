@@ -24,9 +24,9 @@ void parentTask()
 
 int main(void)
 {
-	pid_t pid = fork();
 	for(int i=0; i<4; i++)
 	{
+		int pid = fork();
  		if(pid == 0)
 		{
 			childTask();
