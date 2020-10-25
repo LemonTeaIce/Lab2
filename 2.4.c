@@ -6,7 +6,7 @@
 
 void childTask()
 {
-	char[30] name;
+	char name[30];
 	printf("Enter name:");
 	scanf("%d",&name);
 	printf("Child name: %d",name);
