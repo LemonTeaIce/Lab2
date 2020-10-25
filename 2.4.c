@@ -8,8 +8,9 @@ void childTask()
 {
 	char name[30];
 	printf("Enter name:");
-	scanf("%d",&name);
-	printf("Child name: %d",name);
+	scanf("%s",&name);
+	printf("Child name: %s",name);
+	return 0;
 }
 
 void parentTask()
@@ -17,7 +18,7 @@ void parentTask()
 	
 	printf("waiting for child process to finish....\n");
 	wait(NULL);
-	printf("Job is done.\n")
+	printf("Job is done.\n");
 }
 
 
