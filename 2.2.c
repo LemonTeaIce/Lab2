@@ -13,7 +13,7 @@ int main(int argc, char **argv)
 		break;
 
 		default: //a fork return a pid to the parent
-		printf("I am the parent process: pid=%d\n",getpid(),pid);
+		printf("I am the parent process: pid=%d, child pid=%d\n",getpid(),pid);
 		break;
 
 		case -1: //something went wrong
