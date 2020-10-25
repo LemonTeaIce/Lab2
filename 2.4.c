@@ -8,9 +8,9 @@ void childTask()
 {
 	char name[30];
 	printf("Enter name:");
-	scanf("%s",&name);
+	scanf("%s",name);
 	printf("Child name: %s",name);
-	return 0;
+	
 }
 
 void parentTask()
