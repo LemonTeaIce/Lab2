@@ -10,7 +10,7 @@ void childTask()
 	printf("Enter name:");
 	scanf("%s",name);
 	printf("Child name: %s",name);
-	
+	exit(0);
 }
 
 void parentTask()
